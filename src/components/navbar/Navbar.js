@@ -27,11 +27,7 @@ const Navbar = () => {
             ABOUT
           </Link>
         </div>
-        <div className="navlink-wrapper">
-          <Link to="experience" spy={true} smooth={true} duration={500}>
-            EXPERIENCE
-          </Link>
-        </div>
+       
         {/* <div className="navlink-wrapper">
           <Link to="projects" spy={true} smooth={true} duration={500}>
             PROJECTS

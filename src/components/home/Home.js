@@ -8,8 +8,8 @@ import Typewriter from 'typewriter-effect'
 import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle'
 import Navbar from '../navbar/Navbar'
 import config from '../../config'
-import profile from '../../images/matt.png'
-import linkedin from '../../images/social/linkedin.png'
+import profile from '../../images/mel.png'
+import facebook from '../../images/social/facebook.png'
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
@@ -26,7 +26,7 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Matthew Jigalin</span>.{' '}
+              Hi, I'm <span className="name">Mel Keno R. Dominguito</span>.{' '}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
@@ -51,11 +51,11 @@ const Home = () => {
             <Bounce cascade>
               <div className="links">
                 <a
-                  href="https://www.linkedin.com/in/mjigalin/"
+                  href="https://web.facebook.com/keno.rivera.77"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={linkedin} alt="Linkedin Logo" width="50px" />
+                  <img src={facebook} alt="Facebook Logo" width="50px" />
                 </a>
               </div>
             </Bounce>
